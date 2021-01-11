@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/portfolio/static/js/main.fcb3106a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fcb3106a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/js/2.f76b0355.chunk.js": "/portfolio/static/js/2.f76b0355.chunk.js",
+    "static/js/2.f76b0355.chunk.js.map": "/portfolio/static/js/2.f76b0355.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f76b0355.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f76b0355.chunk.js.LICENSE.txt",
+    "static/media/Nodejs Blog.ae13b92d.png": "/portfolio/static/media/Nodejs Blog.ae13b92d.png",
+    "static/media/React-redux blog.f6556264.png": "/portfolio/static/media/React-redux blog.f6556264.png",
+    "static/media/form.f957ff8f.png": "/portfolio/static/media/form.f957ff8f.png",
+    "static/media/gobang.ad87da1b.png": "/portfolio/static/media/gobang.ad87da1b.png",
+    "static/media/restaurant.4b157da9.png": "/portfolio/static/media/restaurant.4b157da9.png",
+    "static/media/todolist.7fefcfbd.png": "/portfolio/static/media/todolist.7fefcfbd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/js/2.f76b0355.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.fcb3106a.chunk.js"
+  ]
+}
