@@ -20,17 +20,18 @@ const Header = styled.div`
   font-weight: 700;
   padding: 50px;
   color: #111111;
+  margin: 0 auto;
 `
 
 const PortfolioContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 40px;
+  margin: 40px auto;
   width: 80%;
 `
 
 const PortfolioBlock = styled.div`
-  width: 47%;
+  width: 46%;
   margin: 0 0 60px 20px;
   & + & {
     margin-left: 20px;
@@ -52,7 +53,7 @@ const Desc = styled.div`
 const Img = styled.div`
   & img {
     opacity: 0.4;
-    width: 570px;
+    width: 520px;
     height: 450px;
     font-size: 30px;
     font-weight: bold;
