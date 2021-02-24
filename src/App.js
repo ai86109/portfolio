@@ -16,51 +16,63 @@ const Root = styled.div`
 `
 
 const Header = styled.div`
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 700;
   padding: 50px;
   color: #111111;
   margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
 `
 
 const PortfolioContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 40px auto;
-  width: 80%;
-`
-
-const PortfolioBlock = styled.div`
-  width: 46%;
-  margin: 0 0 60px 20px;
-  & + & {
-    margin-left: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  @media screen and (min-width: 768px) {
+    margin: 40px auto;
+    padding: 20px;
   }
 `
 
+const PortfolioBlock = styled.div`
+  margin: 20px auto;
+`
+
 const Title = styled.div`
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
 `
 
 const Desc = styled.div`
   margin: 20px 0;
-  font-size: 20px;
+  text-align: center;
+  font-size: 16px;
   padding: 0 10px;
+  max-width: 520px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 `
 
 const Img = styled.div`
+  max-width: 520px;
+  border-radius: 10px;
+  overflow: hidden;
   & img {
     opacity: 0.4;
-    width: 520px;
-    height: 450px;
+    width: 100%;
+    max-height: 450px;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
-    transition: transform 0.1s;
+    transition: transform 0.3s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     &:hover {
       transform: scale(1.05);
@@ -126,7 +138,6 @@ function Portfolio() {
           </a>
         </Img>
       </PortfolioBlock>
-      <PortfolioBlock></PortfolioBlock>
     </PortfolioContainer>
   )
 }
