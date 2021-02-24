@@ -33,7 +33,7 @@ const PortfolioContainer = styled.div`
   padding: 10px;
   @media screen and (min-width: 768px) {
     margin: 40px auto;
-    padding: 20px;
+    padding: 22px;
   }
 `
 
